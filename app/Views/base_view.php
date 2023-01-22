@@ -7,7 +7,6 @@ include("head.php");
 <body>
 <?php
 include("header.php");
-include("menu.php");
 ?>
 <div class="content">
     <?php

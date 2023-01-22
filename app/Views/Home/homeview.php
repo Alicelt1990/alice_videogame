@@ -1,7 +1,3 @@
 <?php
-
-
-
-include("menu.php");
-
+include($_SERVER['DOCUMENT_ROOT'] . "/app/Views/base_view.php");
 echo $data;
