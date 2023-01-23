@@ -1,3 +1,6 @@
+
+<?php Header ("Content-type: text/css; charset=utf-8");?> 
+
 header{
     background-color: rgb(42, 126, 154);
 }
@@ -12,12 +15,13 @@ h2 {
 }
 
 h3 {
+
     color: black;
     text-align: left;
 }
 
   
-  p {
+p {
     font-family: verdana;
     font-size: 20px;
-  }
+}

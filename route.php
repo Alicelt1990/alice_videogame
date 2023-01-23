@@ -14,13 +14,21 @@ class Route
                 $controller = new HomeController();
                 $controller->home();
                 break;
-            case "style":
-                include_once("app/Controller/HomeController.php");
-                $controller = new HomeController();
-                $controller->style();
+            case "assets":
+                $this->getAssets($parts[1]);
                 break;
             default:
                 echo "Page not found";
+                break;
+        }
+    }
+
+    public function getAssets($part) {
+        switch($part) {
+            case "styles.css":
+                include_once("app/Controller/AssetsController.php");
+                $controller = new AssetsController();
+                $controller->getStyles();
                 break;
         }
     }
