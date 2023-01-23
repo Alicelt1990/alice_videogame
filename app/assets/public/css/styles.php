@@ -30,7 +30,7 @@ p {
     font-size: 20px;
 }
 
-ul {
+.navbar-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,11 +38,11 @@ ul {
   background-color: rgb(42, 126, 154);
 }
 
-li {
+.nav-item {
   float: left;
 }
 
-li a {
+.nav-item a {
   display: block;
   color: white;
   text-align: left;

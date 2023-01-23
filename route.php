@@ -17,6 +17,12 @@ class Route
             case "assets":
                 $this->getAssets($parts[1]);
                 break;
+
+            case "about":
+                include_once("app/Controller/AboutController.php");
+                $controller = new AboutController();
+                $controller->about();
+                break;
             default:
                 echo "Page not found";
                 break;
