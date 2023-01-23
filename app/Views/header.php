@@ -1,6 +1,6 @@
 <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"></a>
             <button type="button" class="navbar-toggler navbar-toggler-right"></button>
             
             <div id="navbarSupportedContent" class="collapse navbar-collapse">

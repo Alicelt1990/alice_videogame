@@ -14,6 +14,11 @@ class Route
                 $controller = new HomeController();
                 $controller->home();
                 break;
+            case "style":
+                include_once("app/Controller/HomeController.php");
+                $controller = new HomeController();
+                $controller->style();
+                break;
             default:
                 echo "Page not found";
                 break;

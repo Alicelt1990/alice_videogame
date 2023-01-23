@@ -23,4 +23,11 @@ class HomeController extends Controller {
         include($_SERVER['DOCUMENT_ROOT'] . "/app/Views/base_view.php");
     }
 
+    public function style() {
+       "<link>
+        <href>=http://dev.alicevideogames.es/assets/styles.css"
+        </href>
+        </link>";
+    }
+
 }
